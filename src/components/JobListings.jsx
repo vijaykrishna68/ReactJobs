@@ -10,7 +10,7 @@ const JobListings = ({isHome = false}) => {
 
     useEffect(()=>{
       const  fetchJobs = async () => {
-        const apiURL = isHome? '/api/jobs?_limit=3':'/api/jobs'
+        const apiURL = isHome? '/api/jobs?_limit=3':'/api/jobs'//?_ this limits the jobs to 3 on the home page
         try{
           const res = await fetch(apiURL);
           const data = await res.json();
