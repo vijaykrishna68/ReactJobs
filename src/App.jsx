@@ -6,7 +6,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements 
 } from 'react-router-dom';
-import HomePage from './pages/homepage';
+import HomePage from './pages/HomePage';
 import MainLayout from './Layouts/MainLayout';
 import JobsPage from './pages/JobsPage';
 import NotFoundPage from './pages/NotFoundPage';
